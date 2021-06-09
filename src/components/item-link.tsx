@@ -14,7 +14,7 @@ const LinkWrapper = styled.div`
 export const ItemLink: React.FC<IItemLinkProps> = ({ item }) => {
     return (
         <LinkWrapper>
-            <Link to={`/${item.id}`}>{item.caption}</Link>
+            <Link to={`/${item.id}`}>{item.title}</Link>
         </LinkWrapper>
     );
 }
